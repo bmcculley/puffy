@@ -2,7 +2,7 @@ build:
 	go build .
 
 image:
-	docker build -t mnoorali/puffy:2.0.1 .
+	docker build -t bmcculley/puffy:3.0.2 .
 
 push:
-	docker push mnoorali/puffy:2.0.1
+	docker push bmcculley/puffy:3.0.2

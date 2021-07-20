@@ -44,5 +44,5 @@ func main() {
 
 	http.HandleFunc("/index", indexHandler)
 	http.HandleFunc("/healthz", healthHandler)
-	http.ListenAndServe(":8888", nil)
+	http.ListenAndServe(":8080", nil)
 }
